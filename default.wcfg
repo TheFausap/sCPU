@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ise/Projects/sCPU/cpu_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/cpu_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/dr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/wr_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/dw" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dw[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dw[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/accu_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">accu_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">accu_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut_cpu/state_watch" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state_watch</obj_property>
+      <obj_property name="ObjectShortName">state_watch</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,4 @@
+vhdl isim_temp "procram.vhd"
+vhdl isim_temp "disp4.vhd"
+vhdl isim_temp "cpu.vhd"
+vhdl isim_temp "top.vhd"
